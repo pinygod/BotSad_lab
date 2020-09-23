@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">botsad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_title">Справочник посадок</string>
+    <string name="search_balance">12</string>
+    <string name="giacint">Гиацинт</string>
+    <string name="hydrangea">Hydrangea</string>
+    <string name="title1part">Добро пожаловать в Сибирский Ботанический cад</string>
+    <string name="title2part">Томского Государственного университета</string>
+    <string name="login">войти</string>
+    <string name="registration">регистрация</string>
+    <string name="account_exist">уже есть аккаунт</string>
+    <string name="type_info">Пожалуйста, введите свои данные</string>
+    <string name="name">имя</string>
+    <string name="login_or_email">логин или e-mail</string>
+    <string name="password">пароль</string>
+    <string name="password_again">повторите пароль</string>
+    <string name="registration_apply">я даю согласие на обработку моих персональных данных и соглашаюсь с политикой конфиденциальности</string>
+    <string name="input_login">Пожалуйста, введите свой логин</string>
+    <string name="forgot_password">забыли пароль?</string>
+    <string name="big_OR">ИЛИ</string>
+    <string name="no_account">нет аккаунта</string>
+    <string name="item_description">ГИАЦИНТ лат. Hyacínthus Гиацинт (лат. Hyacínthus) — род растений семейства Спаржевые (Asparagaceae). Ранее выделялся в собственное семейство Гиацинтовые (Hyacinthaceae) или включался в семейство Лилейные (Liliaceae). Названия цветка происходит от древнегреческого мифе о спартанском принце Гиацинте, которого случайно убил Аполлон во время игры в метание диска и из крови которого якобы и появился этот цветок. Гиацинт применяется в парфюмерной промышленности. Некоторые исследователи утверждают, что запах гиацинта стимулирует положительные эмоции, снимает стресс и повышает работоспособность. Душистые и нежные кисти гиацинтов появляются в садах весной одними из первых, однако век их недолог. Издавна человечество стремилось продлить это очарование. Агротехнический приём, при помощи которого растение искусственно выводят из состояния покоя, ускоряют его рост и заставляют цвести и плодоносить в необычное для культуры время, называется выгонка. Для удачной выгонки луковицы необходимо правильно отобрать и подготовить[5]. Выгонку гиацинтов начинают осенью, а современные технологии позволяют получать цветы гиацинтов с конца декабря по май.</string>
+    <string name="giacint_latin_translate">лат. Кековник</string>
+    <string name="done">готово</string>
+    <string name="create_garden_name">Придумайте название вашего сада</string>
+</resources>
