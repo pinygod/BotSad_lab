@@ -7,4 +7,10 @@
     <item android:title="Search"
         android:icon="@drawable/ic_search"
         android:id="@+id/searchFragment"/>
+    <item android:title="3rd"
+        android:icon="@drawable/ic_3"/>
+    <item android:title="4th"
+        android:icon="@drawable/ic_4"/>
+    <item android:title="5th"
+        android:icon="@drawable/ic_5"/>
 </menu>

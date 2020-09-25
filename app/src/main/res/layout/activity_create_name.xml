@@ -17,7 +17,7 @@
         android:background="@drawable/inputbox_bg"
         android:ems="10"
         android:fontFamily="@font/open_sans"
-        android:hint="@string/name"
+        android:hint="@string/garden_name"
         android:inputType="textPersonName"
         android:paddingStart="30dp"
         android:textAlignment="textStart"
@@ -31,8 +31,9 @@
         android:layout_width="274dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="51dp"
+        android:layout_marginTop="600dp"
         android:layout_marginEnd="51dp"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/green_btn_bg"
         android:fontFamily="@font/open_sans"
         android:text="@string/done"
@@ -42,8 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.679" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView7"
@@ -52,10 +52,12 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="75dp"
         android:layout_marginEnd="155dp"
+        android:layout_marginBottom="550dp"
         android:autoSizeTextType="uniform"
         android:text="@string/create_garden_name"
         android:textAppearance="@style/textBoxStyle"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,11 +65,11 @@
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="179dp"
-        android:layout_height="307dp"
+        android:layout_width="150dp"
+        android:layout_height="255dp"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="150dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/doneButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText5"

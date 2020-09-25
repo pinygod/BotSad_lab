@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.isVisible
+import kotlinx.android.synthetic.main.fragment_map.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,6 +37,26 @@ class MapFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_map, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        belkaButton.setOnClickListener {
+            if (belkaPopup.visibility == View.INVISIBLE) {
+                belkaPopup.visibility = View.VISIBLE;
+            } else {
+                belkaPopup.visibility = View.INVISIBLE;
+            }
+        }
+
+        spruceButton.setOnClickListener {
+            if (sprucePopup.visibility == View.INVISIBLE) {
+                sprucePopup.visibility = View.VISIBLE;
+            } else {
+                sprucePopup.visibility = View.INVISIBLE;
+            }
+        }
     }
 
     companion object {

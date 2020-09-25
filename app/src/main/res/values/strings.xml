@@ -13,10 +13,11 @@
     <string name="account_exist">уже есть аккаунт</string>
     <string name="type_info">Пожалуйста, введите свои данные</string>
     <string name="name">имя</string>
+    <string name="garden_name">имя сада</string>
     <string name="login_or_email">логин или e-mail</string>
     <string name="password">пароль</string>
     <string name="password_again">повторите пароль</string>
-    <string name="registration_apply">я даю согласие на обработку моих персональных данных и соглашаюсь с политикой конфиденциальности</string>
+    <string name="registration_apply">я даю согласие на обработку моих персональных данных и соглашаюсь с <u>политикой конфиденциальности</u></string>
     <string name="input_login">Пожалуйста, введите свой логин</string>
     <string name="forgot_password">забыли пароль?</string>
     <string name="big_OR">ИЛИ</string>
